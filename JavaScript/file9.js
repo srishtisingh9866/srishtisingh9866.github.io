@@ -1,3 +1,5 @@
+
+/*
 //ARRAYS
 const score = [2,1,7,5,3];
 console.log(score);
@@ -75,3 +77,6 @@ addToCart(3);
 increaseQuantiy(1);
 decreaseQuanty(3);
 console.log(cart);
+*/
+
+

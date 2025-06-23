@@ -113,7 +113,7 @@ body {
   position: relative;
   z-index: 0;
   transition: 0.3s;
-  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  box-shadow: 0 0 5px #5b0249, 0 0 10px #570346;
   margin: 5px;
 }
 
@@ -166,4 +166,58 @@ textarea::placeholder {
   font-size: large;
   border-top: 1px solid #4169e1;
   box-shadow: 0 0 10px #1e90ff;
+}
+
+
+/*Projects*/
+.project-3d-container {
+  text-align: center;
+  padding-top: 50px;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.project-slider {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  transform-style: preserve-3d;
+  padding: 40px 0;
+}
+
+.project-card {
+  width: 220px;
+  height: 320px;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(65, 105, 225, 0.4);
+  overflow: hidden;
+  transform: rotateY(calc(var(--i) * 5deg)) translateZ(0px);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.project-card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-bottom: 2px solid #4169e1;
+}
+
+.project-card p {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(to right, #4169e1, #ff00cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-card:hover {
+  transform: rotateY(0deg) scale(1.05) translateZ(30px);
+  box-shadow: 0 0 25px #1e90ff, 0 0 50px #ff00cc;
+  z-index: 1;
 }

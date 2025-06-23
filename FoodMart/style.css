@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #fff8e1;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 8px;
+}
+
+.support-cart span {
+  margin-left: 20px;
+}
+
+.hero {
+  display: flex;
+  background: #f0f8ff;
+  padding: 40px 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background: #144da3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero img {
+  max-height: 200px;
+}
+
+.discounts {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.discount-card {
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.green {
+  background: #e8f5e9;
+}
+
+.peach {
+  background: #fbe9e7;
+}
+
+.discount-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  background: transparent;
+}
+
+.categories, .brands, .products {
+  padding: 20px;
+}
+
+.cat-grid, .brand-row, .product-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.cat-box, .brand-box {
+  background: #f4f4f4;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.product-card {
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+  flex: 1 0 200px;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+
+.footer-col input {
+  padding: 6px;
+  margin-right: 4px;
+}
