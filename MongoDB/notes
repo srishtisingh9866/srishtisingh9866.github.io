@@ -1,0 +1,14 @@
+replica set-
+for example in a node explication
+Mongodb can have more than 2 servers
+acting one as primary and others as secondary
+just in case for some reason primary server stops working
+the other secondary server starts working so as tprimary server if the application won't go down
+
+secondary servers are used to report read
+
+
+create a folder name mongo-replicac
+reate three database folders
+
+id remains constant for replica set
